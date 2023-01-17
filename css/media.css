@@ -1,0 +1,125 @@
+@media (max-width: 1400px) {
+    .header {
+        padding-bottom: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .hero-title {
+        font-size: 68px;
+    }
+
+    .article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1;
+        color: rgba(255, 255, 255, 0.1);
+        left: 0;
+        top: 0;
+        transform: translateY(-50%);
+    }
+
+    .article-text {
+        padding-left: 50px;
+        max-width: 50%;
+        margin-right: 0;
+    }
+
+    .article-img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .footer-nav + .footer-nav {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 920px) {
+    .footer-row {
+       flex-direction: column-reverse;
+    }
+
+    .footer-nav-wrapper {
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .nav, .account {
+        display: none;
+    } 
+
+    .hero-title {
+        font-size: 44px;
+        text-shadow: 0 0 15px rgba(0, 0, 0, 0.6);    
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+
+    .hero-category {        
+        padding-left: 62px;
+        font-size: 14px;
+    }
+
+    .hero-category::before {     
+        width: 32px;
+    }
+
+    .nav-wrapper {
+        margin-bottom: 90px;
+    }
+
+    .header {               
+        padding-bottom: 200px;
+    }
+
+    .article-title {
+        font-size: 44px;
+
+    }
+
+}
+
+@media (max-width: 720px) {
+    .article,
+    .article:nth-child(even) {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+        align-items: flex-start;
+    }
+
+    .article-text {        
+        max-width: 100%;
+    }
+
+    .article-img {
+        margin-bottom: 75px;
+        max-width: 320px;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 560px) {
+    .footer-nav-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-nav + .footer-nav {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+}
